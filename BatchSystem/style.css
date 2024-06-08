@@ -1,0 +1,180 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+.navbar a {
+    color: rgb(21, 21, 21);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    position: relative;
+    margin-top: 10px;
+    left: 300px;
+}
+#home{
+    color: red;
+}
+.navbar a:hover {
+    background-color: #a6ed7f;
+    color: black;
+}
+.navbar .download-btn {
+    background-color: #181918;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    right: 300px;
+    font-weight:bold;
+    appearance: auto;
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+
+}
+.navbar .download-btn:hover {
+    background-color: #45a049;
+
+}
+#effect{
+    position: absolute;
+    left: 250px;
+    top: 8%;
+   
+}
+
+#heading{
+    position: relative;
+    left: 10%;
+    font-size: 60px;
+    top: 10px;
+    font-weight: bold;
+    font-family:'Franklin Gothic medium', 'Arial Narrow', Arial, sans-serif
+
+  
+}
+.para{
+    font-size: 15px;
+    position: relative;
+    left: 10%;
+    top: -10px;
+    font-family: monospace;
+}
+.getstarted{
+   
+ background-color: #181918;
+    border: 1px solid white;
+  color: #fff;
+  cursor: default;
+  display: flex;
+  gap: 10px;
+  margin-right: 5px;
+  padding: 0 21px 0 20px;
+  align-items: center;
+  width: 120px;
+  height: 50px;
+  border-radius: 0.2px;
+  position: relative;
+  left: 10%;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ .getstarted a:hover {
+    background-color: #a6ed7f;
+    color: black;
+}
+.watched{
+    border: 1px solid white;
+    cursor: default;
+    display: flex;
+    gap: 10px;
+    margin-right: 5px;
+    padding: 0 21px 0 20px;
+    position: relative;
+    left: 24%;
+    bottom: 50px;
+    width: 150px;
+    height: 50px;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#logo{
+   position: absolute;
+   margin-top: -10px;
+   margin-left: 90px;
+
+}
+
+#star{
+    position: relative;
+    display: inline;
+    left: -32%;
+    top: -650px;
+}
+#star1{
+    position: relative;
+    display: inline;
+    left: -20%;
+    top:-300px;
+    
+}
+#nlogo{
+    position: relative;
+
+    display: inline-block;
+
+    left: 10%;
+    bottom: 45px;
+
+
+
+}
+
+#container{
+
+    display: inline-block;
+
+}
+
+#backgroundfull{
+    position: absolute;
+    top: 12%;
+    right: 200px;
+
+}
+ #color{
+    position:absolute;
+    bottom: -15%;
+    right:250px;
+
+
+}
+
+#middle{
+    position: absolute;
+    top: 18%;
+    right: 235px;
+
+}
+ #iphone{
+    position:absolute;
+    top: 8%;
+    right: 330px;
+
+} 
+
+
+
+
